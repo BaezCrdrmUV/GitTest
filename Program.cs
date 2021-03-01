@@ -57,7 +57,7 @@ namespace SimpleMath
                 {
                     double numero1;
                     Console.WriteLine("Intoduce un número");
-                    numero1=double.parse(Console.ReadLine());
+                    numero1=Double.Parse(Console.ReadLine());
                     Console.WriteLine("el resultado es = " + Math.Floor(numero1));
                 }
                 else if (option.Trim() == "7")
