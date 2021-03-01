@@ -38,7 +38,9 @@ namespace SimpleMath
                 }
                 else if(option.Trim() == "5")
                 {
-
+                    Console.WriteLine("Por favor ingrese un numero");
+                    var valor = Console.Readline();
+                    Console.WriteLine("El resultado es: " + CustomMath.CalcularCeiling(valor));
                 }
                 else if(option.Trim() == "6")
                 {
