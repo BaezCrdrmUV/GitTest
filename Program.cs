@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SimpleMath
 {
@@ -20,7 +20,7 @@ namespace SimpleMath
                 Console.WriteLine("8. Raíz");
                 string option = Console.ReadLine();
 
-                if(option.Trim() == "1")
+                if (option.Trim() == "1")
                 {
                     Console.WriteLine("\nIngresa el primero numero: ");
                     float numero1 = float.Parse(Console.ReadLine());
@@ -32,27 +32,28 @@ namespace SimpleMath
 
                     Console.WriteLine($"\nEl resultado de la suma es: {resultadoSuma}\n");
                 }
-                else if(option.Trim() == "2")
+                else if (option.Trim() == "2")
+                {
+                    Console.WriteLine("el resultado es "+ CustomMath.Resta());
+                   
+                }
+                else if (option.Trim() == "3")
                 {
 
                 }
-                else if(option.Trim() == "3")
+                else if (option.Trim() == "4")
                 {
 
                 }
-                else if(option.Trim() == "4")
+                else if (option.Trim() == "5")
                 {
 
                 }
-                else if(option.Trim() == "5")
+                else if (option.Trim() == "6")
                 {
 
                 }
-                else if(option.Trim() == "6")
-                {
-
-                }
-                else if(option.Trim() == "7")
+                else if (option.Trim() == "7")
                 {
                     Console.WriteLine("Ingresa el numero base");
                     int numeroBase = int.Parse(Console.ReadLine());
@@ -63,7 +64,7 @@ namespace SimpleMath
                     Console.WriteLine("El resultado de la operación es: " + CustomMath.Potencia(numeroBase, potencia));
                     
                 }
-                else if(option.Trim() == "8")
+                else if (option.Trim() == "8")
                 {
 
                 }
@@ -71,7 +72,7 @@ namespace SimpleMath
                 {
                     Console.WriteLine(CustomMath.Echo());
                 }
-                else 
+                else
                     break;
             }
         }
