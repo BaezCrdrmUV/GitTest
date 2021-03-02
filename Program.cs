@@ -39,10 +39,12 @@ namespace SimpleMath
                 }
                 else if (option.Trim() == "3")
                 {
-
+                    Console.WriteLine("Inserta 2 numeros ");
+                    Console.WriteLine("el resultado es: "+ CustomMath.multiplicar(int.Parse(Console.ReadLine()),int.Parse(Console.ReadLine())));
                 }
                 else if (option.Trim() == "4")
                 {
+                    
                     Console.WriteLine("Digite el dividendo");
                     double dividendo= Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Digite el divisor");
